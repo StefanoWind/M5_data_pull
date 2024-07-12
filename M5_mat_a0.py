@@ -19,11 +19,11 @@ warnings.filterwarnings("ignore")
 source='Y:/Wind-data/Public/Projects/Met135/MetData/M5Twr'
 storage=os.path.join(cd,'data/nwtc/nwtc.m5.a0/')
 sdate='2024-04-06'
-edate='2024-04-08'
+edate='2024-04-07'
 replace=False
 
 zero_datenum=719529#[days] 1970-01-01 in Inputlab time
-variables=['Sonic_x_clean_(\d+)m','Sonic_y_clean_(\d+)m']
+variables=['Sonic_x_clean_(\d+)m','Sonic_y_clean_(\d+)m','Sonic_z_clean_(\d+)m']
 
 #%% Initialization
 utl.mkdir(storage)
