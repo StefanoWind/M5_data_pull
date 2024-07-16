@@ -1,6 +1,6 @@
 __pycache__
-*.cdf
+.cdf
 *.nc
 *.png
-*.csv
+*nwtc*.csv
 *.log
