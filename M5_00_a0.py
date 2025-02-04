@@ -18,8 +18,8 @@ warnings.filterwarnings("ignore")
 #%% Inputs
 source='Y:/Wind-data/Public/Projects/Met135/MetData/M5Twr'
 storage=os.path.join(cd,'data/nwtc/nwtc.m5.a0/')
-sdate='2024-04-06'
-edate='2024-04-07'
+sdate='2024-01-01'
+edate='2024-01-02'
 replace=False
 
 zero_datenum=719529#[days] 1970-01-01 in Inputlab time

@@ -22,8 +22,8 @@ plt.close('all')
 #%% Inputs
 source=os.path.join(cd,'data/nwtc/nwtc.m5.a0')
 replace=False
-sdate='2024-04-06'
-edate='2024-04-08'
+sdate='2024-01-01'
+edate='2024-01-02'
 
 max_nan=20#[%] maximum number of nan in a series
 min_std=0.01#[dimensional] standard deviation of flat signal
